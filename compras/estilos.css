@@ -1,0 +1,32 @@
+#compras-box #lista-off {
+    text-decoration: line-through;
+    filter: opacity(.5);
+}
+
+#compras-box h4:has(+ #lista-off:empty) {
+    display: none;
+}
+
+#compras-box {
+    max-width: 400px;
+}
+
+#compras-box li div {
+    display: none;
+    float: right;
+}
+
+#compras-box ul li:hover {
+    background-color: #DDD;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+#compras-box li:hover div {
+    display: block;
+    transition: 0.3s;
+}
+
+#compras-box ul li:nth-child(2n) {
+    background-color: bisque;
+}

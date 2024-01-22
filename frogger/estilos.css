@@ -1,0 +1,56 @@
+#grid {
+    width: 180px;
+    height: 180px;
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#grid div {
+    width: 20px;
+    height: 20px;
+}
+
+.ending-block {
+    background-color: red;
+}
+
+.starting-block {
+    background-color: lightblue;
+}
+
+.log-left {
+    background-color: lightskyblue;
+}
+
+.log-right {
+    background-color: lightskyblue;
+}
+
+.car-left {
+    background-color: lightslategray;
+}
+
+.car-right {
+    background-color: lightslategray;
+}
+
+.l1, .l2, .l3 {
+    background: lightskyblue url(img/log.png) no-repeat center;
+    background-size: 20px;
+}
+
+.c1 {
+    background: lightslategray url(img/car.png) no-repeat center;
+    background-size: 20px;
+}
+
+.frog {
+    background: url(img/frog.png) no-repeat center;
+    background-size: 20px;
+}
+
+.frog-end {
+    background: url(img/frog_end.png) no-repeat center;
+    background-size: 20px;
+}
